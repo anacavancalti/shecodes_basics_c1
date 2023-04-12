@@ -27,7 +27,7 @@
         color: white;
         text-decoration: none;
       }
-      
+
       a:visited {
         color: white;
       }
@@ -134,7 +134,6 @@
         border-color: #7dd87d;
         width: 150px;
         height: 150px;
-
       }
       .footer {
         color: white;
@@ -157,7 +156,9 @@
       </div>
       <div>
         <ul>
-          <li><a href="https://www.vegansushibar.nl/" target=_blank">HOME</a></li>
+          <li>
+            <a href="https://www.vegansushibar.nl/" target="_blank">HOME</a>
+          </li>
           <li class="menuButtonMenu">MENU</li>
           <li class="orderButtonMenu">ORDER NOW</li>
           <li>
@@ -190,27 +191,50 @@
       </div>
       <div class="row2">
         <h3>Gallery</h3>
-        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/728/original/Screen_Shot_2023-04-12_at_21.15.39.png?1681327965" alt="Kinkerstraat" class="photo">
-        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/734/original/Screen_Shot_2023-04-12_at_21.15.59.png?1681328343" alt="Sushi1" class="photo">
-        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/735/original/Screen_Shot_2023-04-12_at_21.18.17.png?1681328565" alt="Sushi2" class="photo">
-        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/756/original/Screen_Shot_2023-04-12_at_21.19.40.png?1681330247" alt="Sushi3" class="photo">
-        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/757/original/Screen_Shot_2023-04-12_at_21.16.54.png?1681330343" alt="Ramen" class="photo">
-
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/728/original/Screen_Shot_2023-04-12_at_21.15.39.png?1681327965"
+          alt="Kinkerstraat"
+          class="photo"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/734/original/Screen_Shot_2023-04-12_at_21.15.59.png?1681328343"
+          alt="Sushi1"
+          class="photo"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/735/original/Screen_Shot_2023-04-12_at_21.18.17.png?1681328565"
+          alt="Sushi2"
+          class="photo"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/756/original/Screen_Shot_2023-04-12_at_21.19.40.png?1681330247"
+          alt="Sushi3"
+          class="photo"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/757/original/Screen_Shot_2023-04-12_at_21.16.54.png?1681330343"
+          alt="Ramen"
+          class="photo"
+        />
       </div>
       <div class="footer">
         <p>
           Coded by
-          <span style="color: #7dd87d;">Ana Cavalcanti</span>
+          <span style="color: #7dd87d">Ana Cavalcanti</span>
           with HTML, CSS and JavaScript for the
-          <a href="https://www.shecodes.io/" span style="color: #f7be7f;">SheCodes</a>
+          <a href="https://www.shecodes.io/" span style="color: #f7be7f"
+            >SheCodes</a
+          >
           Basics Favorite Restaurant Challenge.
         </p>
       </div>
     </div>
     <script>
-        function introduction() {
-            alert("Hello there! Please be aware that this is not an official website even though I was authorized to create a version of Vegan Sushi Bar's landing page for educational purposes. I hope you like it! :)")
-        }
+      function introduction() {
+        alert(
+          "Hello there! Please be aware that this is not an official website even though I was authorized to create a version of Vegan Sushi Bar's landing page for educational purposes. I hope you like it! :)"
+        );
+      }
       function cityAmsterdam() {
         let city = prompt("Are you in Amsterdam?");
         if (city !== null && city.toLocaleLowerCase() === "yes") {
@@ -231,8 +255,8 @@
         }
       }
 
-      let start = introduction()
-     let menuButton = document.querySelector(".menuButton");
+      let start = introduction();
+      let menuButton = document.querySelector(".menuButton");
       menuButton.addEventListener("click", websiteDirect);
       let menuButtonMenu = document.querySelector(".menuButtonMenu");
       menuButtonMenu.addEventListener("click", websiteDirect);
